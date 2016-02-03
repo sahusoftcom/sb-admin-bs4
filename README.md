@@ -14,7 +14,7 @@ Find out more [Themes at StrapUI.com](http://www.strapui.com/).
 ####1. Clone this project or Download that ZIP file
 
 ```sh
-$ git clone https://github.com/start-angular/sb-admin-angular.git
+$ git clone https://github.com/sahusoftcom/sb-admin-bs4.git
 ```
 
 ####2.  Plugins 
