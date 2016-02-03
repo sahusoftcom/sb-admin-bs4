@@ -1,0 +1,322 @@
+/*!
+ * Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+body {
+    margin-top: 100px;
+    background-color: #222;
+}
+
+.navbar-brand {
+    color: #999!important;
+    padding: 10px;
+}
+
+.navbar-brand:hover {
+    color: #fff!important;
+}
+
+.navbar-dark {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    background: #222222;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding: 15px 10px!important;
+    line-height: 20px!important;
+    color: #999!important;
+    text-decoration: none;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #000;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: nowrap;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+
+li.nav-item {
+    margin: 0!important;
+}
+
+li.nav-item-elements {
+    margin: 6px!important;
+}
+
+.nav-link-elements:hover,
+.nav-link-elements:active,
+.nav-link-elements:focus {
+    color: rgba(0,0,0,.8)!important;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+    color: #fff!important;
+}
+
+ul.message-dropdown {
+    padding: 0;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+li.message-preview {
+    width: 275px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    padding: 3px 18px 3px 4px;
+}
+
+li.message-preview>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.media-heading {
+    font-size: 16px;
+}
+
+.media-body>p {
+    margin-bottom: 10px;
+    white-space: normal;
+}
+
+.message-preview>p {
+    margin-bottom: 10px;
+}
+
+li.message-footer {
+    margin: 5px 0;
+}
+
+ul.alert-dropdown {
+    width: 185px;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 50px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #222;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #000 !important;
+    }
+}
+
+.side-nav {
+    border: none;
+    border-radius: 0px;
+}
+
+.side-nav>li {
+    border: none;
+    background: #222222;
+    padding: 0;
+    border-radius: 0px;
+}
+
+.side-nav .list-group-item.active {
+    background: #080808;
+}
+
+.side-nav>li>a {
+    color: #999;
+    width: 225px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.side-nav>li>a:hover,
+.side-nav>li>a:focus,
+.side-nav>li>a:active {
+    text-decoration: none;
+    color: #fff!important;
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li {
+    background: #222;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom Colored Cards */
+
+.huge {
+    font-size: 40px;
+}
+
+.card-green {
+    border-color: #5cb85c;
+}
+
+.card-green > .card-header {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.card-green > a {
+    color: #5cb85c;
+}
+
+.card-green > a:hover {
+    color: #3d8b3d;
+}
+
+.card-red {
+    border-color: #d9534f;
+}
+
+.card-red > .card-header {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.card-red > a {
+    color: #d9534f;
+}
+
+.card-red > a:hover {
+    color: #b52b27;
+}
+
+.card-yellow {
+    border-color: #f0ad4e;
+}
+
+.card-yellow > .card-header {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.card-yellow > a {
+    color: #f0ad4e;
+}
+
+.card-yellow > a:hover {
+    color: #df8a13;
+}
+
+.bg-white {
+    background: #fff;
+}
